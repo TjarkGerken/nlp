@@ -21,7 +21,7 @@ Es werden verschiedene LLMs ausgewählt, darunter Modelle mit unterschiedlichen 
 
 | Person | Model            |
 |--------|------------------|
-| Karina | T5                |
+| Karina | T5               |
 | Sophie | Log. Reg. & ElMo |
 | Leon   | BeRT             |
 | Ingo   | GPT-3.5          |
