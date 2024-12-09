@@ -24,7 +24,7 @@ Es werden verschiedene LLMs ausgewählt, darunter Modelle mit unterschiedlichen 
 | Karina | T5               |
 | Sophie | Log. Reg. & ElMo |
 | Leon   | BeRT             |
-| Ingo   | GPT-3.5          |
+| Ingo   | Llama            |
 | Tjark  | SVM, RGR         |
 
 ## Evaluierung der Modelle:
