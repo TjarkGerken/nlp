@@ -58,8 +58,8 @@ class DataProvider():
     @staticmethod
     def split_data(X, y):
         #scaler = StandardScaler(with_mean=False)
-        scaler = MaxAbsScaler()
-        X = scaler.fit_transform(X)
+        #scaler = MaxAbsScaler()
+        #X = scaler.fit_transform(X)
         
         return train_test_split(X, y, test_size=0.2, random_state=7)
     
