@@ -12,11 +12,11 @@ from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, MaxAbsScaler, label_binarize
 
-nltk.download('punkt_tab')
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('averaged_perceptron_tagger_eng')
-nltk.download('wordnet')
+nltk.download('punkt_tab', quiet=True)
+nltk.download('punkt', quiet=True)
+nltk.download('stopwords', quiet=True)
+nltk.download('averaged_perceptron_tagger_eng', quiet=True)
+nltk.download('wordnet', quiet=True)
 
 class DataProvider():   
     def __init__(self):
